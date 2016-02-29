@@ -3,7 +3,7 @@
 }
 
 body {
-	background-color: #99FF66;
+	background-color: #66FF00;
 	margin: 0;
 	padding: 0;
 }
@@ -26,13 +26,14 @@ h1{
 }
 
 #tab a{
+	padding: 20px;
 	font-size: 20px;
 	color: yellow;
 	text-decoration: none;
 }
 
 #tab a:hover, #tab a.active {
-	color: green;
+	color: #009900;
 }
 
 #tab a.active{
@@ -41,6 +42,7 @@ h1{
 
 .box {
 	padding: 15px;
+	background-color: #00CC00;
 	float: left;
 	width: 33.3333333%;
 	border: 2px solid #ff0000;
@@ -70,5 +72,5 @@ h1{
 
 #view-gallery span{
 	font-size: 24px;
-	color: blue;
+	color: white;
 }
