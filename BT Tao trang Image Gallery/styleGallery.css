@@ -3,13 +3,13 @@
 }
 
 body {
-	background-color: #66FF00;
+	background-color: #000033;
 	margin: 0;
 	padding: 0;
 }
 
 #all {
-	max-width: 1200px;
+	max-width: none;
 	margin: auto;
 }
 
@@ -20,20 +20,23 @@ body {
 
 h1{
 	font-family: Arial;
+	font-weight: bold;
 	font-size: 30pt;
-	color: red;
+	color: #FFFF00;
 	text-align: center;
+	text-shadow: 0 0 10px white;
 }
 
 #tab a{
 	padding: 20px;
-	font-size: 20px;
-	color: yellow;
+	font-size: 30px;
+	color: grey;
 	text-decoration: none;
+	text-shadow: 0 0 3px white;
 }
 
 #tab a:hover, #tab a.active {
-	color: #009900;
+	color: #66FF33;
 }
 
 #tab a.active{
@@ -42,11 +45,12 @@ h1{
 
 .box {
 	padding: 15px;
-	background-color: #00CC00;
+	background-color: #330066;
 	float: left;
 	width: 33.3333333%;
-	border: 2px solid #ff0000;
+	border: 2px solid black;
 	border-top-width: 5px;
+	text-shadow: 0 0 3px white;
 }
 
 #view-gallery{
@@ -72,5 +76,6 @@ h1{
 
 #view-gallery span{
 	font-size: 24px;
-	color: white;
+	font-weight: bold;
+	color: red;
 }
