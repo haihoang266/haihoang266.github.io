@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+<head> 
+	<title>Calculator</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	
+</head>
+<body>
+
+	<h1> CALCULATOR </h1>
+
+	<br />
+
+	<input id="result" type="text" value="0" />
+	<br />
+	<br />
+
+	<table>
+
+		<tr>
+			<td> <button onclick="Operation('+')"> + </button> </td>
+			<td> <button onclick="Operation('-')"> - </button> </td>
+			<td> <button onclick="Operation('*')"> x </button> </td>
+			<td> <button onclick="Operation('/')"> ÷ </button> </td>
+		</tr>
+
+		<tr>
+			<td> <button onclick="press(this)">1</button> </td>
+			<td> <button onclick="press(this)">2</button> </td>
+			<td> <button onclick="press(this)">3</button> </td>
+			<td> <button onclick="percent()"> % </button> </td>
+		</tr>
+
+		<tr>
+			<td> <button onclick="press(this)">4</button> </td>
+			<td> <button onclick="press(this)">5</button> </td>
+			<td> <button onclick="press(this)">6</button> </td>
+			<td> <button onclick="factorial()"> ! </button> </td>
+		</tr>
+
+		<tr>
+			<td> <button onclick="press(this)">7</button> </td>
+			<td> <button onclick="press(this)">8</button> </td>
+			<td> <button onclick="press(this)">9</button> </td>
+			<td> <button onclick="squareRoot()"> √ </button> </td>
+		</tr>
+
+		<tr>
+			<td> <button onclick="press(this)">0</button> </td>
+			<td> <button onclick="dot()">.</button> </td>
+			<td> <button onclick="Operation('=')">=</button> </td>
+			<td> <button onclick="comeBack()"> AC </button> </td>
+		</tr>
+
+
+	</table>
+
+
+
+	<script src="js/script.js">  </script>
+</body>
+</html>
